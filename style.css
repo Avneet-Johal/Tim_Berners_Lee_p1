@@ -1,0 +1,51 @@
+body{
+    text-align:center;
+    margin:0px;
+}
+#welcome{
+    background-image:linear-gradient(rgb(185, 89, 105),purple,red,yellow);
+    padding-top:100px ;
+    padding-bottom:80px ;
+}
+#bio{
+    background-color: pink;
+    padding-top:100px ;
+    padding-bottom:80px ;
+}
+#pic{
+    width: 300px;
+    border-radius:150px;
+}
+#name{
+    font-size:50px;
+    font-weight:bold ;
+    color:navy;
+    font-family: 'Lobster', cursive;
+}
+.line{
+    height:6px;
+    width:80px;
+    background-color: black;
+    margin:8px auto;
+}
+.menu{
+    list-style: none;
+    position:absolute;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    z-index: 10;
+    background-color: rgb(138, 216, 190);
+}
+.link{
+    float:left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    color: rgb(112, 112, 201);
+}
+#para{
+    font-family: 'Permanent Marker', cursive;
+}
